@@ -1,0 +1,46 @@
+.body{
+    background-image: url(design.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+.LogIN-Form {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: white;
+}
+.LogIN-Form h1{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:bolder;
+    
+}
+.LogIN-Form p{
+    font-size: 24px;
+    padding: 5px;
+    margin: 5px;
+}
+.LogIN-Form input{
+    font-size: 24px;
+    width: 100%;
+    border-radius: 10px;
+    border-inline: 0;
+    border-style: none;
+    padding: 5%;
+}
+.LogIN-Form button{
+    padding: 3%;
+    margin: 5px;
+    font-size: 18px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    outline-color: 0;
+    background-color: white;
+    border-style: none;
+    color: gray;
+}
+button:hover {
+    background-color: yellow;
+  }
